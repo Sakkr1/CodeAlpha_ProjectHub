@@ -1,6 +1,6 @@
 # Project Management Tool
 
-A full-stack Trello/Asana-like project management web application with drag-and-drop Kanban boards, real-time commenting, light/dark theme, and an explore page to browse other users' projects.
+A full-stack project management web application with drag-and-drop Kanban boards, real-time commenting, light/dark theme, and an explore page to browse other users' projects.
 
 > **Platform**: This application is designed for laptops and computers only. It is not optimized for mobile devices or tablets.
 
@@ -169,9 +169,3 @@ project-management/
 - **CSS** – Tailwind v4 with CSS `@layer` utilities. Dark mode is handled via Tailwind's `dark:` variants and CSS custom properties.
 - **State Management** – Zustand stores for client-side state (auth, projects, tasks, comments, toasts). React Query available for server state caching.
 - **Real-Time** – Socket.IO namespaces and rooms per task. Comments broadcast instantly to all connected clients viewing the same task.
-
----
-
-## License
-
-MIT
